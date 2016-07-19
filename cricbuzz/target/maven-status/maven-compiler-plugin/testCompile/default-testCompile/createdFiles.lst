@@ -1,0 +1,10 @@
+cricbuzz\test\Ranking_page.class
+cricbuzz\test\Teams.class
+cricbuzz\test\News.class
+cricbuzz\test\iRanking.class
+cricbuzz\test\cricbuzz_steps.class
+cricbuzz\test\Schedule_Page.class
+cricbuzz\test\Live_Score.class
+cricbuzz\test\HomePage.class
+cricbuzz\test\RunCukesTest.class
+cricbuzz\test\Interview.class

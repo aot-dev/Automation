@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.119" errors="2" skipped="5" tests="8" name="cricbuzz.test.RunCukesTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\bin"/>
+    <property name="java.vm.version" value="24.80-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="G:\Workspace\cricbuzz"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="G:\Workspace\cricbuzz"/>
+    <property name="java.runtime.version" value="1.7.0_80-ea-b05"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\PRATHI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="classworlds.conf" value="G:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4730990502528317218.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_80\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\RSA SecurID Token Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WinMerge;C:\Program Files (x86)\Git\cmd;C:\Ruby200\bin;C:\OracleDB\instantclient_12_1;C:\IBMDB2\clidriver\bin;C:\Ruby200\bin;C:\OracleDB\instantclient_12_1;C:\IBMDB2\clidriver\bin;C:\Ruby200\bin;C:\OracleDB\instantclient_12_1;C:\IBMDB2\clidriver\bin;C:\OracleDB\instantclient_12_1;C:\IBMDB2\clidriver\bin;C:\Program Files\kdiff3;C:\Users\prathibha\clidriver\bin;C:\Program Files (x86)\Git\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\apache-maven-3.3.3\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\prathibha"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="devendra.kumar"/>
+    <property name="java.class.path" value="/C:/Users/prathibha/Downloads/eclipse-jee-mars-1-win32-x86_64 (1)/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_80\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_80-ea"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_80\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="G:\Workspace\cricbuzz\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="0.003" classname="Given I visit cricbuzz website   " name="Given I visit cricbuzz website   "/>
+  <testcase time="0.005" classname="Then I check schedules for different tournaments    " name="Then I check schedules for different tournaments    ">
+    <error message="Unable to find element with xpath == //*[@id=&apos;International-tab&apos;]/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 323 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 5be2c393-5d03-4ead-a133-b139da914cb9" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;International-tab&apos;]/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 323 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 5be2c393-5d03-4ead-a133-b139da914cb9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:353)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
+	at cricbuzz.test.Schedule_Page.schedule(Schedule_Page.java:15)
+	at cricbuzz.test.cricbuzz_steps.schedule_of_tournament(cricbuzz_steps.java:28)
+	at ✽.Then I check schedules for different tournaments(cricbuzz\test\cricbuzz.feature:5)
+</error>
+    <system-out>&amp;#27;[1A    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI visit cricbuzz website&amp;#27;[0m                   &amp;#27;[90m# cricbuzz_steps.visit_cricbuzz()&amp;#27;[0m
+    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mI check schedules for different tournaments&amp;#27;[0m &amp;#27;[90m# cricbuzz_steps.schedule_of_tournament()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase time="0.01" classname="Scenario: Cricket world updates  " name="Scenario: Cricket world updates  ">
+    <error message="Unable to find element with xpath == //*[@id=&apos;International-tab&apos;]/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 323 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 5be2c393-5d03-4ead-a133-b139da914cb9" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;International-tab&apos;]/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 323 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_80-ea&apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: 5be2c393-5d03-4ead-a133-b139da914cb9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:353)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
+	at cricbuzz.test.Schedule_Page.schedule(Schedule_Page.java:15)
+	at cricbuzz.test.cricbuzz_steps.schedule_of_tournament(cricbuzz_steps.java:28)
+	at ✽.Then I check schedules for different tournaments(cricbuzz\test\cricbuzz.feature:5)
+</error>
+  </testcase>
+  <testcase time="0.011" classname="Then I check rankings for &quot;batsmens&quot;     " name="Then I check rankings for &quot;batsmens&quot;     ">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI check schedules for different tournaments&amp;#27;[0m &amp;#27;[90m# cricbuzz_steps.schedule_of_tournament()&amp;#27;[0m
+      &amp;#27;[31morg.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id=&apos;International-tab&apos;]/a (WARNING: The server did not provide any stacktrace information)
+      Command duration or timeout: 323 milliseconds
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: &apos;2.25.0&apos;, revision: &apos;17482&apos;, time: &apos;2012-07-18 22:18:01&apos;
+      System info: os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.7.0_80-ea&apos;
+      Driver info: driver.version: RemoteWebDriver
+      Session ID: 5be2c393-5d03-4ead-a133-b139da914cb9
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+      	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+      	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:353)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
+      	at cricbuzz.test.Schedule_Page.schedule(Schedule_Page.java:15)
+      	at cricbuzz.test.cricbuzz_steps.schedule_of_tournament(cricbuzz_steps.java:28)
+      	at ?.Then I check schedules for different tournaments(cricbuzz\test\cricbuzz.feature:5)
+      &amp;#27;[0m
+    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mI check rankings for &quot;&amp;#27;[0m&amp;#27;[90m&amp;#27;[1mbatsmens&amp;#27;[0m&amp;#27;[90m&quot;&amp;#27;[0m             &amp;#27;[90m# cricbuzz_steps.rankings(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase time="0.016" classname="Then I check rankings for &quot;bowlers&quot;      " name="Then I check rankings for &quot;bowlers&quot;      ">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI check rankings for &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mbatsmens&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m             &amp;#27;[90m# cricbuzz_steps.rankings(String)&amp;#27;[0m
+    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mI check rankings for &quot;&amp;#27;[0m&amp;#27;[90m&amp;#27;[1mbowlers&amp;#27;[0m&amp;#27;[90m&quot;&amp;#27;[0m              &amp;#27;[90m# cricbuzz_steps.rankings(String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase time="0.016" classname="Then I check live score of matches       " name="Then I check live score of matches       ">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI check rankings for &quot;&amp;#27;[0m&amp;#27;[36m&amp;#27;[1mbowlers&amp;#27;[0m&amp;#27;[36m&quot;&amp;#27;[0m              &amp;#27;[90m# cricbuzz_steps.rankings(String)&amp;#27;[0m
+    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mI check live score of matches&amp;#27;[0m               &amp;#27;[90m# cricbuzz_steps.live_score_of_matches()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase time="0.02" classname="Then I check different news of cricket        " name="Then I check different news of cricket        ">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI check live score of matches&amp;#27;[0m               &amp;#27;[90m# cricbuzz_steps.live_score_of_matches()&amp;#27;[0m
+    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mI check different news of cricket&amp;#27;[0m           &amp;#27;[90m# cricbuzz_steps.news_of_cricket()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase time="0.038" classname="Then I check updates for few popular teams         " name="Then I check updates for few popular teams         ">
+    <skipped/>
+    <system-out>&amp;#27;[1A    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mI check different news of cricket&amp;#27;[0m           &amp;#27;[90m# cricbuzz_steps.news_of_cricket()&amp;#27;[0m
+    &amp;#27;[90mThen &amp;#27;[0m&amp;#27;[90mI check updates for few popular teams&amp;#27;[0m       &amp;#27;[90m# cricbuzz_steps.updates_of_popular_teams()&amp;#27;[0m
+</system-out>
+  </testcase>
+</testsuite>

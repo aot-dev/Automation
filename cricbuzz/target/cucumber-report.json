@@ -1,0 +1,63 @@
+[
+  {
+    "id": "cricket-update",
+    "description": "",
+    "name": "Cricket update",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "cricket-update;cricket-world-updates",
+        "description": "",
+        "name": "Cricket world updates",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "name": "I visit cricbuzz website",
+            "keyword": "Given ",
+            "line": 4
+          },
+          {
+            "name": "I check schedules for different tournaments",
+            "keyword": "Then ",
+            "line": 5
+          },
+          {
+            "name": "I check rankings for \"batsmens\"",
+            "keyword": "Then ",
+            "line": 6
+          },
+          {
+            "name": "I check rankings for \"bowlers\"",
+            "keyword": "Then ",
+            "line": 7
+          },
+          {
+            "name": "I check live score of matches",
+            "keyword": "Then ",
+            "line": 8
+          },
+          {
+            "name": "I check different news of cricket",
+            "keyword": "Then ",
+            "line": 9
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "name": "I check updates for few popular teams",
+            "keyword": "Then ",
+            "line": 10,
+            "match": {
+              "location": "cricbuzz_steps.updates_of_popular_teams()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "cricbuzz\\test\\cricbuzz.feature"
+  }
+]

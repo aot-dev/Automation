@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: cricbuzz.test.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 5, Time elapsed: 19.348 sec <<< FAILURE!
+Then I check schedules for different tournaments      Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id='International-tab']/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 323 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_80-ea'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 5be2c393-5d03-4ead-a133-b139da914cb9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:353)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
+	at cricbuzz.test.Schedule_Page.schedule(Schedule_Page.java:15)
+	at cricbuzz.test.cricbuzz_steps.schedule_of_tournament(cricbuzz_steps.java:28)
+	at ?.Then I check schedules for different tournaments(cricbuzz\test\cricbuzz.feature:5)
+
+Scenario: Cricket world updates    Time elapsed: 0.01 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //*[@id='International-tab']/a (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 323 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.25.0', revision: '17482', time: '2012-07-18 22:18:01'
+System info: os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_80-ea'
+Driver info: driver.version: RemoteWebDriver
+Session ID: 5be2c393-5d03-4ead-a133-b139da914cb9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:498)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:268)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:353)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:260)
+	at cricbuzz.test.Schedule_Page.schedule(Schedule_Page.java:15)
+	at cricbuzz.test.cricbuzz_steps.schedule_of_tournament(cricbuzz_steps.java:28)
+	at ?.Then I check schedules for different tournaments(cricbuzz\test\cricbuzz.feature:5)
+
